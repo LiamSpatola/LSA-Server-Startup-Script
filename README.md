@@ -15,3 +15,6 @@ This project contains the LSA Server Startup Script, or LSA-SSS. This sets up a 
 
 ## SERVER INFORMATION ##
 `curl https://raw.githubusercontent.com/LiamSpatola/LSA-Server-Startup-Script/main/Server-Information.sh | bash`
+
+## MYSQL INSTALL ""
+`curl https://raw.githubusercontent.com/LiamSpatola/LSA-Server-Startup-Script/main/MYSQL-Install.sh | bash`
