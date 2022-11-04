@@ -5,7 +5,7 @@ echo "RUN THIS SCRIPT AS ROOT. DO NOT USE SUDO."
 echo ""
 
 apt update
-apt install mariadb-server
+apt install mariadb-server -y
 
 echo ""
 echo "================================================================="
