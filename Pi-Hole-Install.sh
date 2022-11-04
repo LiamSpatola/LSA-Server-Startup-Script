@@ -8,8 +8,6 @@ ip=$(echo "$ip" | sed '/^/ s/ .*//')
 
 apt-get update -y
 curl -sSL https://install.pi-hole.net | bash
-
-echo "SET A PASSWORD FOR PI-HOLE ADMIN PANEL"
 pihole -a -p
 
 echo "PI-HOLE GUI IS RUNNING ON http://$ip"
