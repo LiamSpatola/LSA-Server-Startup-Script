@@ -8,14 +8,4 @@ echo "curl https://raw.githubusercontent.com/pimox/pimox7/master/RPiOS64-IA-Inst
 echo "chmod +x RPiOS64-IA-Install.sh"
 echo "./RPiOS64-IA-Install.sh"
 echo "WE APOLOGISE FOR THE INCONVENIENCE."
-
-echo "EXITING IN 3 SECONDS."
-timer_start=$SECONDS
-full_time=$(( timer_start + 3 ))
-
-until [ $SECONDS == $full_time];
-do
-  
-done
-
 echo "LSA SERVER STARTUP SCRIPT COMPLETED."
