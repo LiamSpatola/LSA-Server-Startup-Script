@@ -12,3 +12,6 @@ This project contains the LSA Server Startup Script, or LSA-SSS. This sets up a 
 
 ## RASPBERRY PI PROXMOX INSTALL ##
 `curl https://raw.githubusercontent.com/LiamSpatola/LSA-Server-Startup-Script/main/Raspberry-Pi-Proxmox-Install.sh | bash`
+
+## SERVER INFORMATION ##
+`curl https://raw.githubusercontent.com/LiamSpatola/LSA-Server-Startup-Script/main/Server-Information.sh | bash`
