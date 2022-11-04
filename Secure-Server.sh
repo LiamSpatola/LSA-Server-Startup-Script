@@ -3,9 +3,9 @@ echo "RUN THIS SCRIPT AS ROOT. DO NOT USE SUDO."
 echo ""
 
 apt update
-apt install unattended-upgrades
+apt install unattended-upgrades -y
 dpkg-reconfigure --priority=low unattended-upgrades
-apt install ufw
+apt install ufw -y
 ufw enable
 ufw reload
 
