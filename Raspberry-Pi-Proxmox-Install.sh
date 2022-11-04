@@ -11,7 +11,7 @@ echo "WE APOLOGISE FOR THE INCONVENIENCE."
 
 echo "EXITING IN 3 SECONDS."
 timer_start=$SECONDS
-full_time=(( timer_start + 3 ))
+full_time=$(( timer_start + 3 ))
 
 until [ $SECONDS == $full_time];
 do
