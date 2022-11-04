@@ -8,5 +8,8 @@ ip=$(hostname -I)
 apt-get update -y
 curl -sSL https://install.pi-hole.net | bash
 
+echp "SET A PASSWORD FOR PI-HOLE ADMIN PANEL"
+pihole -a -p
+
 echo "PI-HOLE GUI IS RUNNING ON http://$ip"
 echo "LSA SERVER STARTUP SCRIPT COMPLETED."
