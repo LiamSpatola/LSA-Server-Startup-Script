@@ -9,10 +9,8 @@ ip=$(hostname -I)
 ip=$(echo "$ip" | sed '/^/ s/ .*//')
 apt install nmap -y
 ports=$(nmap $ip)
-apt install lm-sensors hddtemp
-sensors-detect
-sensors=$(sensors)
 services=$(service --status-all)
+temp=$(vcgencmd measure_temp)
 
 echo ""
 echo "===================================================="
@@ -21,8 +19,7 @@ echo "OPEN PORTS:"
 echo "$ports"
 echo "SERVICES:"
 echo "$services"
-echo "SENSOR READINGS:"
-echo "$sensors"
+echo "TEMPERATURE: $temp"
 echo "===================================================="
 
 echo ""
