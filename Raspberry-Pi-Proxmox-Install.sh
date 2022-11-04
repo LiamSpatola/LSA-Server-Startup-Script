@@ -28,5 +28,3 @@ until [ $SECONDS == $full_time];
 do
   
 done
-
-echo "LSA SERVER STARTUP SCRIPT COMPLETED."
