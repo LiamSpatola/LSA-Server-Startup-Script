@@ -12,5 +12,8 @@ curl -sSL https://install.pi-hole.net | bash
 pihole -a -p
 
 echo ""
+echo "===================================="
 echo "PI-HOLE GUI IS RUNNING ON http://$ip"
+echo "===================================="
+echo ""
 echo "LSA SERVER STARTUP SCRIPT COMPLETED."
