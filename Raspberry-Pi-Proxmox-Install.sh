@@ -13,4 +13,3 @@ chmod +x RPiOS64-IA-Install.sh
 
 echo "PROXMOX IS RUNNING ON http://$ip:8006"
 echo "LSA SERVER STARTUP SCRIPT COMPLETED."
-rm RPiOS64-IA-Install.sh
