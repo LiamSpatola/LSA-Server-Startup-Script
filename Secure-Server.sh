@@ -6,8 +6,6 @@ apt update
 apt install unattended-upgrades -y
 dpkg-reconfigure --priority=low unattended-upgrades
 apt install ufw -y
-ufw enable
-ufw reload
 
 echo ""
 echo "====================================================================================="
