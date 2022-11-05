@@ -21,3 +21,6 @@ This project contains the LSA Server Startup Script, or LSA-SSS. This sets up a 
 
 ## SECURE SERVER ##
 `curl https://raw.githubusercontent.com/LiamSpatola/LSA-Server-Startup-Script/main/Secure-Server.sh | bash`
+
+## OPENMEDIAVAULT INSTALL ##
+`curl https://raw.githubusercontent.com/LiamSpatola/LSA-Server-Startup-Script/main/OpenMediaVault-Install.sh | bash`
