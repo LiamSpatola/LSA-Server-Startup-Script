@@ -12,8 +12,10 @@ curl -sSL https://install.pi-hole.net | bash
 pihole -a -p
 
 echo ""
-echo "===================================="
+echo "========================================================================="
 echo "PI-HOLE GUI IS RUNNING ON http://$ip"
-echo "===================================="
+echo "PI-HOLE HAS NO PASSWORD BY DEFAULT. TO SET ONE RUN THE FOLLOWING COMMAND.
+echo "pihole -a -p"
+echo "========================================================================="
 echo ""
 echo "LSA SERVER STARTUP SCRIPT COMPLETED."
