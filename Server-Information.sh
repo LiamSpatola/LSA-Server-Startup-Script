@@ -13,14 +13,14 @@ services=$(service --status-all)
 temp=$(vcgencmd measure_temp)
 
 echo ""
-echo "===================================================="
+echo "=================================================================================="
 echo "IP ADDRESS: $ip"
 echo "OPEN PORTS:"
 echo "$ports"
 echo "SERVICES:"
 echo "$services"
 echo "TEMPERATURE: $temp"
-echo "===================================================="
+echo "=================================================================================="
 
 echo ""
 echo "LSA SERVER STARTUP SCRIPT COMPLETED."
