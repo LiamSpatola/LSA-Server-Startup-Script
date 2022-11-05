@@ -20,7 +20,7 @@ echo "$ports"
 echo "SERVICES:"
 echo "$services"
 echo "TEMPERATURE: $temp"
-echo "==================================================================================5 11:37 AEDT"
+echo "==============================================================================================="
 
 echo ""
 echo "LSA SERVER STARTUP SCRIPT COMPLETED."
