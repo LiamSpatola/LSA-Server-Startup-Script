@@ -7,7 +7,7 @@ echo ""
 ip=$(hostname -I)
 ip=$(echo "$ip" | sed '/^/ s/ .*//')
 
-apt update && apt upgrade
+apt update
 
 wget -O - https://raw.githubusercontent.com/OpenMediaVault-Plugin-Developers/installScript/master/install | bash
 
