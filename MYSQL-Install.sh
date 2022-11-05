@@ -16,5 +16,4 @@ echo "mysql"
 echo "================================================================="
 
 echo ""
-echo "WE APOLOGISE FOR THE INCONVENIENCE."
 echo "LSA SERVER STARTUP SCRIPT COMPLETED."
