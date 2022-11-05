@@ -1,6 +1,8 @@
 # LSA Server Startup Script #
 
-<img src="https://licensebuttons.net/l/by-nd/3.0/88x31.png">
+<a href=https://creativecommons.org/licenses/by-nd/4.0/">
+  <img src="https://licensebuttons.net/l/by-nd/3.0/88x31.png">
+</a>
 
 This project contains the LSA Server Startup Script, or LSA-SSS. This sets up a linux server with certain software.
 
