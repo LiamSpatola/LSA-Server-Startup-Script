@@ -11,7 +11,7 @@ echo ""
 echo "====================================================================================="
 echo "INSTALLATION COMPLETE. TO ALLOW A PORT THROUGH THE FIREWALL USE THE FOLLOWING COMMAND"
 echo "ufw allow {port number}"
-echo "THE FIREWALL IS DISABLED BY DEFAULT. TO ENABLE IT, RUN THE FOLLOWING COMMAND.
+echo "THE FIREWALL IS DISABLED BY DEFAULT. TO ENABLE IT, RUN THE FOLLOWING COMMAND."
 echo "ufw enable"
 echo "====================================================================================="
 
