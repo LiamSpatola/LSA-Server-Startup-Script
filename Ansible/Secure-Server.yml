@@ -1,0 +1,6 @@
+---
+  - name: Server Information
+    hosts: all
+    tasks:
+      - name: Gather Information
+        setup:
