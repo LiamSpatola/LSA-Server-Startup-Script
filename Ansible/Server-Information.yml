@@ -3,5 +3,5 @@
     hosts: all
     tasks:
       - name: Gather Information
-        ansible.builtin.shell: |
-        ansible all -m setup
+          ansible.builtin.shell: |
+          ansible all -m setup
