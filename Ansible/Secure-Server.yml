@@ -1,0 +1,17 @@
+---
+  - name: Secure Server
+    hosts: all
+    tasks:
+      - name: Install Unnatended Upgrades
+        apt:
+          name: unattended-upgrades
+          status: latest
+      - name: Configure Unnatended Upgrades
+        command: dpkg-reconfigure --priority=low unattended-upgrades
+      - name: Install UFW
+        apt:
+          name: ufw
+          status: latest
+      - name: Enable UFW
+        command: ufw enable
+        command: ufw allow sshd
