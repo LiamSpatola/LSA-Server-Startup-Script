@@ -5,13 +5,8 @@
       - name: Install Unnatended Upgrades
         apt:
           name: unattended-upgrades
-          status: latest
-      - name: Configure Unnatended Upgrades
-        command: dpkg-reconfigure --priority=low unattended-upgrades
+          state: latest
       - name: Install UFW
         apt:
           name: ufw
-          status: latest
-      - name: Enable UFW
-        command: ufw enable
-        command: ufw allow sshd
+          state: latest
