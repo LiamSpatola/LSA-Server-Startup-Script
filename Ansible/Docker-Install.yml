@@ -1,0 +1,11 @@
+---
+  - name: Docker
+    hosts: all
+    tasks:
+      - name: Ensure Docker is Installed
+        apt:
+          name: docker.io
+          state: latest
+      - name: Install Portainer
+        ansible.builtin.shell: |
+          docker run -d -p 9443:9443 -p 8000:8000 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_stuff:/data portainer/portainer-ce:latest

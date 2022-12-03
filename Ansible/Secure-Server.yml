@@ -1,0 +1,12 @@
+---
+  - name: Secure Server
+    hosts: all
+    tasks:
+      - name: Install Unnatended Upgrades
+        apt:
+          name: unattended-upgrades
+          state: latest
+      - name: Install UFW
+        apt:
+          name: ufw
+          state: latest
