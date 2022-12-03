@@ -4,4 +4,4 @@
     tasks:
       - name: Gather Information
           ansible.builtin.shell: |
-          ansible all -m setup
+            ansible all -m setup
