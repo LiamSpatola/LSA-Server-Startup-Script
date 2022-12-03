@@ -1,0 +1,8 @@
+---
+  - name: MySQL Install
+    hosts: all
+    tasks:
+      - name: Ensure MySQL is Installed
+        apt:
+          name: mariadb-server
+          state: latest
